@@ -1,4 +1,3 @@
-
 import style from './Menu.module.css'
 
 export default function Menu() {
@@ -8,16 +7,13 @@ export default function Menu() {
                 <a href={'/'}>Home</a>
             </p>
             <p>
-                <a href="">Calculations</a>
+                <a href={'/calc'}>Calculations</a>
             </p>
             <p>
                 <a href={'/tec'}>Tecnologies</a>
             </p>
             <p>
                 <a href={'/contact'}>Contact</a>
-            </p>
-            <p>
-                <a href={'/'}>Contact</a>
             </p>
         </div>
     )

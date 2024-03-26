@@ -9,6 +9,7 @@ import {
 import App from './App.jsx'
 import { Tecnologies } from './Tecnologies.jsx';
 import { Contact } from './Contact.jsx';
+import { Calc } from './Calc.jsx'
 
 
 import './index.css'
