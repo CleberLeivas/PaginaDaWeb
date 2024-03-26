@@ -45,7 +45,7 @@ export const Contact = () => {
             <div className={style.wrapTwoDivs}>
                 <div className={style.wrapMap}>
                     <h2>Map</h2>
-                    <MapContainer center={[geoData.lat, geoData.lng]} zoom={17} scrollWheelZoom={false} style={{width: "100%", height: "100%"}}>
+                    <MapContainer center={[geoData.lat, geoData.lng]} zoom={14} scrollWheelZoom={false} style={{width: "100%", height: "100%"}}>
                         <TileLayer
                         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -63,7 +63,7 @@ export const Contact = () => {
                     <div className={style.inputsDiv}>
                         <div className={style.wrapLabelInput}>
                             <label htmlFor="name" className={style.labels}>Nome</label>
-                            <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
+                            <input className={style.inputs1} type="text" id='name' name='name' value={formData.name} onChange={handleChange} required/>
                         </div>
                         <div className={style.wrapLabelInput}>
                             <label htmlFor="email" className={style.labels}>Email</label>
